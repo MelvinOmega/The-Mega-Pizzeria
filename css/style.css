@@ -1,0 +1,10 @@
+body {
+    background-image: url(../assets/background.jpg);
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-style: oblique;
+    font-size: xx-large;
+    font-weight: 900;
+}
