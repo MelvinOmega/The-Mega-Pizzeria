@@ -1,10 +1,63 @@
 body {
     background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    padding-bottom: 20px;
+    position: relative;
+    overflow-x: hidden;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    height: 60px;
+}
+
+nav >p{
+    padding-left: 2%;
+    text-transform: uppercase;
+    display: block;
+    padding: 18px;
+    
+}
+
+nav div{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+nav a{
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: rgba(0, 0, 0, 1);
+}
+
+nav>div>p>a:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(30, 130, 76, 0.678);
+    color: rgba(255, 255, 255, 0.9);
+}
+head {
+    text-align: center;
+}
+
 h1 {
     color: white;
     text-align: center;
     font-style: oblique;
     font-size: xx-large;
     font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 400%;
+}
+img {
+    padding-left: 36%;
 }
