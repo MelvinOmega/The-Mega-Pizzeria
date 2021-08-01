@@ -1,7 +1,7 @@
 body {
     background-image: url(../assets/background.jpg);
     background-repeat: no-repeat;
-    background-attachment:fixed;
+    /* background-attachment:fixed; */
     padding-bottom: 20px;
     position: relative;
     overflow-x: hidden;
@@ -66,4 +66,9 @@ img {
 #about {
     text-align: center;
     color: white;
+}
+#place-order {
+    background-image: url(../assets/backgrnd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
