@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>The Mega Pizzeria</title>
 </head>
-<body>
+<body style="background-color: black">
+<!--start nav bar-->
     <nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-top">
         <div>
             <P style="font-family: 'Times New Roman', Times, serif; font-weight: 600; color: purple;">THE <br> MEGA PIZZERIA</P>
@@ -18,22 +19,29 @@
         </div>
 
     </nav>
+<!--end nav bar-->   
+
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="container" id="top">
-      <h1 class="title">THE MEGA PIZZERIA</h1>
-        <img src="./assets/200w.webp" height="300" alt="">
-    </div>
     <br>
     <br>
     <br>
     <br>
 
+<!--title-->    
+    <div class="container" id="top">
+      <h1 class="title">THE MEGA PIZZERIA</h1>
+        <img src="./assets/200w.webp" height="300" alt="">
+    </div>
+<!--end title-->   
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+<!--start about us-->
     <div class="abt" id="about">
-        <div class="container" style="background-color: rgba(124, 31, 245, 0.1);">
+        <div class="container" style="background-color: rgba(31, 245, 138, 0.1);">
             <h1 style="color: black;">ABOUT US</h1>
             <div class="row">
             <div class="col-md-6" >
@@ -45,11 +53,15 @@
             </div>
         </div>
     </div>
+<!--end about us-->   
+
     <br>
     <br>
     <br>
+
+<!--start varieties-->    
     <div style="background-color: white;">
-        <div class="container" id="varieties" style="border-color: rgba(124, 31, 245, 0.1);">
+        <div class="container" id="varieties" style="border-color: rgba(46, 207, 60, 0.1);">
             <h1 style="color: black; text-align: center;">VARIETIES</h1>
             <div class="container">
                 <div class="row">
@@ -109,10 +121,14 @@
             </div>
         </div>
     </div>  
+<!--end varieties-->
+
     <br>
     <br>
     <br>
-    <div class="container-fluid " id="place-order" style="background-color:  palegreen">
+
+<!--start place order-->    
+    <div class="container-fluid " id="place-order" style="color: white;">
         <div>
             <div class="controls" id="order" >
                 <h2>PLACE ORDER</h2>
@@ -123,9 +139,11 @@
         <div class="row">
             <div class="col-sm-5">
                 <form action="">
+
                     <label for="select">
                         Select Flavor
                     </label>
+
                     <select class="form-select" aria-label="Default select example">
                         <option selected>Open this select menu</option>
                         <option value="Chicken Hawaiian">Chicken Hawaiian</option>
@@ -136,6 +154,7 @@
                         <option value="Veggie Pizza">Veggie Pizza</option>
                         <option value="Buffalo Pizza">Buffalo Pizza</option>
                     </select>
+
                     <label for="Select Size">Select Size</label>
                     <select class="form-select" aria-label="Default select example">
                         <option selected>Select Size</option>
@@ -143,8 +162,11 @@
                         <option value="medium">Medium</option>
                         <option value="small">Small</option>
                     </select> 
+
                     <label for="Toppings">Select Topings</label>
+
                     <br>
+
                     <div class="custom-control custom-checkbox custom-control-inline">
                         <input type="checkbox" class="custom-control-input" id="pepperoni" value="pepperoni" name="toppings">
                         <label class="custom-control-label" for="pepperoni">Pepperoni</label>
@@ -177,13 +199,16 @@
                         <input type="checkbox" class="custom-control-input" id="green-peppers" value="green-peppers" name="toppings">
                         <label class="custom-control-label" for="green-peppers">Green peppers</label>
                       </div>
+
                       <br>
+                      
                       <button type="submit" class="btn btn-success">Proceed</button>
                     
                 </form>
             </div>
         </div>
     </div>  
+<!--end place order-->    
     <script src="./js/jquery-3.6.0.js"></script>
     <script src="./js/scripts.js"></script>
 </body>
