@@ -72,3 +72,25 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
 }
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #7BD052;
+    text-align: left;
+   
+}
+#footer-part3 li {
+    font-size: smaller;
+    justify-content: space-around;
+    padding: 5px;
+    
+    
+  
+}
+
+#footer-part3 img{
+   width: 20px;
+   height: 20px;
+ 
+    
+} 
