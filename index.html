@@ -14,16 +14,21 @@
             <P style="font-family: 'Times New Roman', Times, serif; font-weight: 600; color: purple;">THE <br> MEGA PIZZERIA</P>
             <p><a href="#about">ABOUT</a></p>
             <p><a href="#varieties">VARIETIES</a></p>
-            <p><a href="contact-us">CONTACT US</a></p>           
+            <p><a href="#place-order">PLACE ORDER</a></p>           
         </div>
 
     </nav>
+    <br>
+    <br>
+    <br>
     <br>
     <br>
     <div class="container" id="top">
       <h1 class="title">THE MEGA PIZZERIA</h1>
         <img src="./assets/200w.webp" height="300" alt="">
     </div>
+    <br>
+    <br>
     <br>
     <br>
 
@@ -107,7 +112,7 @@
     <br>
     <br>
     <br>
-    <div class="container">
+    <div class="container-fluid " id="place-order" style="background-color:  palegreen">
         <div>
             <div class="controls" id="order" >
                 <h2>PLACE ORDER</h2>
@@ -121,7 +126,8 @@
                     <label for="select">
                         Select Flavor
                     </label>
-                    <select name="" id="">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
                         <option value="Chicken Hawaiian">Chicken Hawaiian</option>
                         <option value="Cheese Pizza">Cheese Pizza</option>
                         <option value="Meat Pizza">Meat Pizza</option>
@@ -130,7 +136,50 @@
                         <option value="Veggie Pizza">Veggie Pizza</option>
                         <option value="Buffalo Pizza">Buffalo Pizza</option>
                     </select>
-                    <label for=""></label>
+                    <label for="Select Size">Select Size</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Select Size</option>
+                        <option value="large">Large</option>
+                        <option value="medium">Medium</option>
+                        <option value="small">Small</option>
+                    </select> 
+                    <label for="Toppings">Select Topings</label>
+                    <br>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" class="custom-control-input" id="pepperoni" value="pepperoni" name="toppings">
+                        <label class="custom-control-label" for="pepperoni">Pepperoni</label>
+                    </div>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" class="custom-control-input" id="mushrooms" value="mushrooms" name="toppings">
+                        <label class="custom-control-label" for="mushrooms">Mushrooms</label>
+                    </div>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" class="custom-control-input" id="onions" value="onions" name="toppings">
+                        <label class="custom-control-label" for="Sausage">Onions</label>
+                      </div>
+                      <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" class="custom-control-input" id="sausage" value="sausage" name="toppings">
+                        <label class="custom-control-label" for="sausage">Sausage</label>
+                      </div>
+                      <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" class="custom-control-input" id="bacon" value="bacon" name="toppings">
+                        <label class="custom-control-label" for="bacon">Bacon</label>
+                      </div>
+                      <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" class="custom-control-input" id="extra-cheese" value="extra-cheese" name="toppings">
+                        <label class="custom-control-label" for="extra-cheese">Extra cheese</label>
+                      </div>
+                      <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" class="custom-control-input" id="black-olives" value="black-olives" name="toppings">
+                        <label class="custom-control-label" for="black-olives">Black olives</label>
+                      </div>
+                      <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" class="custom-control-input" id="green-peppers" value="green-peppers" name="toppings">
+                        <label class="custom-control-label" for="green-peppers">Green peppers</label>
+                      </div>
+                      <br>
+                      <button type="submit" class="btn btn-success">Proceed</button>
+                    
                 </form>
             </div>
         </div>
