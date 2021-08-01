@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>The Mega Pizzeria</title>
 </head>
-<body style="background-color: black">
+<body style="background-color: rgba(31, 245, 138, 0.1)">
 <!--start nav bar-->
     <nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-top">
         <div>
             <P style="font-family: 'Times New Roman', Times, serif; font-weight: 600; color: purple;">THE <br> MEGA PIZZERIA</P>
             <p><a href="#about">ABOUT</a></p>
             <p><a href="#varieties">VARIETIES</a></p>
-            <p><a href="#place-order">PLACE ORDER</a></p>           
+            <p><a href="#place-order">PLACE ORDER</a></p>
+            <p><a href="#contact-us">CONTACT US</a></p>           
         </div>
 
     </nav>
@@ -158,15 +159,23 @@
                     <label for="Select Size">Select Size</label>
                     <select class="form-select" aria-label="Default select example">
                         <option selected>Select Size</option>
-                        <option value="large">Large</option>
-                        <option value="medium">Medium</option>
-                        <option value="small">Small</option>
+                        <option value="large">Large ->Ksh. 1200</option>
+                        <option value="medium">Medium ->Ksh. 850</option>
+                        <option value="small">Small ->Ksh. 600</option>
                     </select> 
 
+                    <label for="crust">Select crust</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Select Crust</option>
+                        <option value="Stuffed">Stuffed crust ->Ksh. 1200</option>
+                        <option value="cracker">Cracker Crust ->Ksh. 850</option>
+                        <option value="flat-bread">Flat Bread Crust ->Ksh. 600</option>
+                        <option value="cheese">Cheese crust ->Ksh. 1200</option>
+                        <option value="thick">Thick crust ->Ksh. 1200</option>
+                    </select>    
+
                     <label for="Toppings">Select Topings</label>
-
                     <br>
-
                     <div class="custom-control custom-checkbox custom-control-inline">
                         <input type="checkbox" class="custom-control-input" id="pepperoni" value="pepperoni" name="toppings">
                         <label class="custom-control-label" for="pepperoni">Pepperoni</label>
@@ -209,6 +218,18 @@
         </div>
     </div>  
 <!--end place order-->    
+
+<footer>
+<div id="contact-us">
+    <h4>Follow Us On</h4>
+    <ul>
+        <li><img src="./assets/icon-facebook.png" alt=""> <em id="space">Facebook</em></li>
+        <li><img src="./assets/icon-instagram.png" alt=""><em id="space">Instagram</em></li>
+        <li><img src="./assets/icon-twiter.jpg" alt=""><em id="space">Twitter</em></li>
+    </ul>
+
+</div>
+</footer>
     <script src="./js/jquery-3.6.0.js"></script>
     <script src="./js/scripts.js"></script>
 </body>
