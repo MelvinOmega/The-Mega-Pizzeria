@@ -9,7 +9,6 @@ body {
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: lightgray;
     height: 60px;
 }
 
