@@ -9,21 +9,26 @@
     <title>The Mega Pizzeria</title>
 </head>
 <body>
-    <nav>
+    <nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-top">
         <div>
             <P style="font-family: 'Times New Roman', Times, serif; font-weight: 600; color: purple;">THE <br> MEGA PIZZERIA</P>
-            <p><a href="menu">MENU</a></p>
-            <p><a href="orders">ORDERS</a></p>
+            <p><a href="#about">ABOUT</a></p>
+            <p><a href="#varieties">VARIETIES</a></p>
             <p><a href="contact-us">CONTACT US</a></p>           
         </div>
 
     </nav>
+    <br>
+    <br>
     <div class="container" id="top">
       <h1 class="title">THE MEGA PIZZERIA</h1>
         <img src="./assets/200w.webp" height="300" alt="">
     </div>
-    <div class="abt">
-        <div class="container" id="about" style="background-color: rgba(124, 31, 245, 0.1);">
+    <br>
+    <br>
+
+    <div class="abt" id="about">
+        <div class="container" style="background-color: rgba(124, 31, 245, 0.1);">
             <h1 style="color: black;">ABOUT US</h1>
             <div class="row">
             <div class="col-md-6" >
@@ -35,17 +40,20 @@
             </div>
         </div>
     </div>
+    <br>
+    <br>
+    <br>
     <div style="background-color: white;">
-        <div class="container" style="border-color: rgba(124, 31, 245, 0.1);">
+        <div class="container" id="varieties" style="border-color: rgba(124, 31, 245, 0.1);">
             <h1 style="color: black; text-align: center;">VARIETIES</h1>
-            <div class="container" style="color: white; background-color: rgba(124, 31, 245, 0.1);">
+            <div class="container">
                 <div class="row">
                 <div class="col-md-4">
                     <div>
                         <img src="./assets/cheese.jpeg" alt="cheese pizza">
                     </div>
                     <div>
-                        <p>CHEESE PIZZA</p>
+                        <p style="text-align: center;">CHEESE PIZZA</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -53,7 +61,7 @@
                         <img src="./assets/veggie.jpeg" alt="veggie">
                     </div>
                     <div>
-                        <p>VEGGIE PIZZA</p>
+                        <p style="text-align: center;">VEGGIE PIZZA</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -61,7 +69,7 @@
                         <img src="./assets/pepperoni.jpeg" alt="pepperoni">
                     </div>
                     <div>
-                        <p>PEPPERONI PIZZA</p>
+                        <p style="text-align: center;">PEPPERONI PIZZA</p>
                     </div>
                 </div>
                 </div>
@@ -73,7 +81,7 @@
                         <img src="./assets/meat.jpeg" alt="meat pizza">
                     </div>
                     <div>
-                        <p>MEAT PIZZA</p>
+                        <p style="text-align: center;">MEAT PIZZA</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -81,7 +89,7 @@
                         <img src="./assets/margherita.jpeg" alt="margherita">
                     </div>
                     <div>
-                        <p>MARGHERITA PIZZA</p>
+                        <p style="text-align: center;">MARGHERITA PIZZA</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -89,13 +97,44 @@
                         <img src="./assets/bbq.jpeg" alt="BBQ chicken pizza">
                     </div>
                     <div>
-                        <p>BBQ CHICKEN PIZZA</p>
+                        <p style="text-align: center;">BBQ CHICKEN PIZZA</p>
                     </div>
                 </div>
                 </div>
             </div>
         </div>
-    </div>    
+    </div>  
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div>
+            <div class="controls" id="order" >
+                <h2>PLACE ORDER</h2>
+
+            </div>
+            <h2>Place your order here</h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-5">
+                <form action="">
+                    <label for="select">
+                        Select Flavor
+                    </label>
+                    <select name="" id="">
+                        <option value="Chicken Hawaiian">Chicken Hawaiian</option>
+                        <option value="Cheese Pizza">Cheese Pizza</option>
+                        <option value="Meat Pizza">Meat Pizza</option>
+                        <option value="BBQ Chicken Pizza">BBQ Chicken Pizza</option>
+                        <option value="Chicken & Beef Pepperoni">Chicken & Beef Pepperoni</option>
+                        <option value="Veggie Pizza">Veggie Pizza</option>
+                        <option value="Buffalo Pizza">Buffalo Pizza</option>
+                    </select>
+                    <label for=""></label>
+                </form>
+            </div>
+        </div>
+    </div>  
     <script src="./js/jquery-3.6.0.js"></script>
     <script src="./js/scripts.js"></script>
 </body>
