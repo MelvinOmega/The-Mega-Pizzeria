@@ -11,3 +11,12 @@ $(document).ready(function(){
     var blackOlives= document.getElementById('black-olives').checked;
     var greenPeppers= document.getElementById('green-peppers').checked;
 })
+
+$(document).ready(function(){
+    $("button.proceed").click(function(){
+        let pizzaName= $(".name option:selected").val();
+        let pizzaSize = $("#size option:selected").val();
+        let pizzaCrust = $("#crust option:selected").val()
+        let pizzaTopping = [];
+    })
+})
